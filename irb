@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run -t -i -v /home:/home addestino/railsday /bin/bash -c "cd $PWD; /usr/bin/irb $*"
+docker run -t -i -v $PWD:$PWD -w=$PWD addestino/railsday /usr/bin/irb $*
