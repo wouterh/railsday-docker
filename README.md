@@ -3,7 +3,7 @@
 ## Usage
 
 First install docker and make sure it is available as the `docker` command (on
-Ubuntu: created a symlink to docker.io).
+Ubuntu: create a symlink to docker.io).
 
 Then run `./build.sh` to build the docker image. Go grab a cup of coffee now.
 
