@@ -1,6 +1,7 @@
 FROM ubuntu:trusty
 
 # Use Brightbox's mirror to install ruby 2.1
+RUN apt-get update
 RUN apt-get install -y software-properties-common
 RUN apt-add-repository -y ppa:brightbox/ruby-ng
 RUN apt-get update
